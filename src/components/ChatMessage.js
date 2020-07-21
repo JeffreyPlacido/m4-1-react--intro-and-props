@@ -14,6 +14,7 @@ const SentMessage = ({ body }) => {
       <div className='chat-text sent-text'>
         <span className='chat-body sent'>{body}</span>
       </div>
+      <img className='sent-Tips' src="/assets/tip-sent.svg"/>
     </div>
   );
 };
@@ -26,6 +27,7 @@ const ReceivedMessage = ({ user, body }) => {
         <span className='user-name'>{user.username}</span>
         <span className='chat-body received'>{body}</span>
       </div>
+      <img className='recieve-Tips' src="/assets/tip-received.svg"/>
     </div>
   );
 };

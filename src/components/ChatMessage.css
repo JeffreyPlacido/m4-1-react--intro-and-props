@@ -30,6 +30,7 @@
 }
 .chat-body.received {
     background-color: #e9e9eb;
+    z-index: 10;
 }
 .sent-text {
     margin-left: auto;
@@ -38,4 +39,16 @@
 .chat-body.sent {
     background-color: #1185f7;
     color: white;
+    z-index: 10;
+}
+
+.recieve-Tips{
+    width: 35px;
+    margin: -470px;
+}
+
+.sent-Tips{
+    width: 30px;
+    margin: -10px;
+    margin-top: 21px;
 }
