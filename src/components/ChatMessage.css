@@ -15,7 +15,6 @@
     width: 450px;
     padding-left: 10px;
     margin-top: 10px;
-    background-color: lightblue;
     border-radius: 10px;
 }
 .user-avatar {
@@ -27,4 +26,16 @@
 .user-name {
     font-family: bold;
     font-size: 20px;
+    color: gray
+}
+.chat-body.received {
+    background-color: #e9e9eb;
+}
+.sent-text {
+    margin-left: auto;
+}
+
+.chat-body.sent {
+    background-color: #1185f7;
+    color: white;
 }
